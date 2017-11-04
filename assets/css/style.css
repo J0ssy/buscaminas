@@ -1,0 +1,58 @@
+/*Tipografía y alineación de texto del documento*/
+body {
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	cursor: url(../img/boom.png), pointer;
+
+}
+
+/*Título Buscaminas*/
+h1 {
+	color: crimson;
+	font-size: 35px;
+}
+
+/*Características de cada celda*/
+div {
+	border: solid 1px slateGray;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	color: crimson;
+	height: 80px;
+	width: 80px;
+	display: table-cell;
+}
+
+/*Margen*/
+#bomb-it {
+	margin-left: 37%;
+}
+
+/*Botón*/
+button {
+	background-color: crimson;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 5px;
+	margin-top: 30px;
+	border: none;
+}
+
+/*Número escondidos*/
+.number {
+	margin: 0;
+	color: #fff;
+	transition: color .3s ease-out
+}
+
+/*Mostrar números*/
+.numberShow {
+	color: crimson;
+}
+
+img {
+	width: 350px;
+	margin: 2% 35%;
+}
