@@ -3,7 +3,6 @@ body {
 	font-family: 'Roboto Slab', serif;
 	text-align: center;
 	cursor: url(../img/boom.png), pointer;
-
 }
 
 /*Título Buscaminas*/
@@ -38,6 +37,12 @@ button {
 	padding: 5px;
 	margin-top: 30px;
 	border: none;
+	cursor: url(../img/boom.png), pointer;
+	transition: color .3s ease-out
+}
+
+button:hover {
+	background-color: slateGray;
 }
 
 /*Número escondidos*/
